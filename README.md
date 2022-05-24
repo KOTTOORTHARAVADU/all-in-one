@@ -12,9 +12,12 @@
 
 <h2>FOLLOW THE COMMANTS FOR TERMUX USERS</h2>
 <p>$ apt update && upgrade -y</p>
+<p>$ pkg install python</p>
+<p>$ pkg install python2</p>
 <p>$ pkg install git -y</p>
-<p>$ git clone https://github.com/KOTTOORTHARAVADU/kct</p>
+<p>$ git clone https://github.com/KOTTOORTHARAVADU/all-in-one.git</p>
 <p>$ ls</p>
+<p>$ cd kct</p>
 <p>$ chmod +x *</p>
 <p>$ python kct.py</p>
 </head>
