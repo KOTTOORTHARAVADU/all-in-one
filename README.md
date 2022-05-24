@@ -17,7 +17,7 @@
 <p>$ pkg install git -y</p>
 <p>$ git clone https://github.com/KOTTOORTHARAVADU/all-in-one.git</p>
 <p>$ ls</p>
-<p>$ cd kct</p>
+<p>$ cd all-in-one</p>
 <p>$ chmod +x *</p>
 <p>$ python kct.py</p>
 </head>
