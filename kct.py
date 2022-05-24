@@ -23,8 +23,8 @@ def main():
 	print("   [14] Termux Utility")
 	print("   [15] Shell Function [.bashrc]")
 	print("   [16] Install CLI Games")
-	print("\n   [00] Exit the Kct\n")
-	lazymux = input("lzmx > set_install ")
+	print("\n   [00] Exit the Lazymux\n")
+	lazymux = input("Kct > set_install ")
 
 	# 01 - Information Gathering
 	if lazymux.strip() == "1" or lazymux.strip() == "01":
@@ -67,7 +67,7 @@ def main():
 		print("    [37] userrecon: Find usernames across over 75 social networks")
 		print("    [38] PhoneInfoga: One of the most advanced tools to scan phone numbers using only free resources")
 		print("\n    [00] Back to main menu\n")
-		infogathering = input("kct > set_install ")
+		infogathering = input("Kct > set_install ")
 		if infogathering == "@":
 			infogathering = ""
 			for x in range(1,38):
@@ -146,7 +146,7 @@ def main():
 		print("    [22] XAttacker: Website Vulnerability Scanner & Auto Exploiter")
 		print("    [23] OWScan: OVID Web Scanner")
 		print("\n    [00] Back to main menu\n")
-		vulnsys = input("lzmx > set_install ")
+		vulnsys = input("Kct > set_install ")
 		if vulnsys == "@":
 			vulnsys = ""
 			for x in range(1,24):
@@ -209,7 +209,7 @@ def main():
 		print("    [21] AUXILE: Auxile Framework")
 		print("    [22] xss-payload-list: Cross Site Scripting ( XSS ) Vulnerability Payload List")
 		print("\n    [00] Back to main menu\n")
-		webhack = input("lzmx > set_install ")
+		webhack = input("Kct > set_install ")
 		if webhack == "@":
 			webhack = ""
 			for x in range(1,23):
@@ -254,7 +254,7 @@ def main():
 		print("    [04] audit_couchdb: Detect security issues, large or small, in a CouchDB server")
 		print("    [05] mongoaudit: An automated pentesting tool that lets you know if your MongoDB instances are properly secured")
 		print("\n    [00] Back to main menu\n")
-		dbssm = input("lzmx > set_install ")
+		dbssm = input("Kct > set_install ")
 		if dbssm == "@":
 			dbssm = ""
 			for x in range(1,6):
@@ -298,7 +298,7 @@ def main():
 		print("    [20] Hashcat: World's fastest and most advanced password recovery utility")
 		print("    [21] ASU: Facebook Hacking ToolKit")
 		print("\n    [00] Back to main menu\n")
-		passtak = input("lzmx > set_install ")
+		passtak = input("Kct > set_install ")
 		if passtak == "@":
 			passtak = ""
 			for x in range(1,22):
@@ -341,7 +341,7 @@ def main():
 		print("    [03] Wifiphisher: The Rogue Access Point Framework")
 		print("    [04] Routersploit: Exploitation Framework for Embedded Devices")
 		print("\n    [00] Back to main menu\n")
-		wiretak = input("lzmx > set_install ")
+		wiretak = input("Kct > set_install ")
 		if wiretak == "@":
 			wiretak = ""
 			for x in range(1,5):
@@ -368,7 +368,7 @@ def main():
 		print("    [04] uncompyle6: Python cross-version byte-code decompiler")
 		print("    [05] ddcrypt: DroidScript APK Deobfuscator")
 		print("\n    [00] Back to main menu\n")
-		reversi = input("lzmx > set_install ")
+		reversi = input("Kct > set_install ")
 		if reversi == "@":
 			reversi = ""
 			for x in range(1,6):
@@ -399,7 +399,7 @@ def main():
 		print("    [07] Websploit: An advanced MiTM Framework")
 		print("    [08] Routersploit: Exploitation Framework for Embedded Devices")
 		print("\n    [00] Back to main menu\n")
-		exploitool = input("lzmx > set_install ")
+		exploitool = input("Kct > set_install ")
 		if exploitool == "@":
 			exploitool = ""
 			for x in range(1,9):
@@ -435,7 +435,7 @@ def main():
 		print("    [09] tshark: Network protocol analyzer and sniffer")
 		print("    [10] Ettercap: Comprehensive suite for MITM attacks, can sniff live connections, do content filtering on the fly and much more")
 		print("\n    [00] Back to main menu\n")
-		sspoof = input("lzmx > set_install ")
+		sspoof = input("Kct > set_install ")
 		if sspoof == "@":
 			sspoof = ""
 			for x in range(1,11):
@@ -468,7 +468,7 @@ def main():
 		print("    [04] mediainfo: Command-line utility for reading information from media files")
 		print("    [05] pdfinfo: PDF document information extractor")
 		print("\n    [00] Back to main menu\n")
-		reportls = input("lzmx > set_install ")
+		reportls = input("Kct > set_install ")
 		if reportls == "@":
 			reportls = ""
 			for x in range(1,6):
@@ -494,7 +494,7 @@ def main():
 		print("    [02] tesseract: Tesseract is probably the most accurate open source OCR engine available")
 		print("    [03] sleuthkit: The Sleuth Kit (TSK) is a library for digital forensics tools")
 		print("\n    [00] Back to main menu\n")
-		forensc = input("lzmx > set_install ")
+		forensc = input("Kct > set_install ")
 		if forensc == "@":
 			forensc = ""
 			for x in range(1,4):
@@ -523,7 +523,7 @@ def main():
 		print("    [07] Xshell")
 		print("    [08] santet-online: Social Engineering Tool")
 		print("\n    [00] Back to main menu\n")
-		stresstest = input("lzmx > set_install ")
+		stresstest = input("Kct > set_install ")
 		if stresstest == "@":
 			stresstest = ""
 			for x in range(1,9):
@@ -554,7 +554,7 @@ def main():
 		print("    [04] Parrot")
 		print("    [05] Arch Linux")
 		print("\n    [00] Back to main menu\n")
-		innudis = input("lzmx > set_install ")
+		innudis = input("Kct > set_install ")
 		if innudis == "@":
 			innudis = ""
 			for x in range(1,6):
@@ -600,7 +600,7 @@ def main():
 		print("    [23] Numpy: The fundamental package for scientific computing with Python")
 		print("    [24] ClickBot: Earn money using telegram bot")
 		print("\n    [00] Back to main menu\n")
-		moretool = input("lzmx > set_install ")
+		moretool = input("Kct > set_install ")
 		if moretool == "@":
 			moretool = ""
 			for x in range(1,24):
@@ -650,7 +650,7 @@ def main():
 		print("    [07] pranayama (4-7-8 Relax Breathing)")
 		print("    [08] sqlc (SQLite Query Processor)")
 		print("\n    [00] Back to main menu\n")
-		myshf = input("lzmx > set_install ")
+		myshf = input("Kct > set_install ")
 		if myshf == "@":
 			myshf = ""
 			for x in range(1,9):
@@ -684,7 +684,7 @@ def main():
 		print("    [07] tty-solitaire")
 		print("    [08] Pacman4Console")
 		print("\n    [00] Back to main menu\n")
-		cligam = input("lzmx > set_install ")
+		cligam = input("Kct > set_install ")
 		if cligam == "@":
 			cligam = ""
 			for x in range(1,23):
