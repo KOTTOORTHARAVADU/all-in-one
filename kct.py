@@ -67,7 +67,7 @@ def main():
 		print("    [37] userrecon: Find usernames across over 75 social networks")
 		print("    [38] PhoneInfoga: One of the most advanced tools to scan phone numbers using only free resources")
 		print("\n    [00] Back to main menu\n")
-		infogathering = input("lzmx > set_install ")
+		infogathering = input("kct > set_install ")
 		if infogathering == "@":
 			infogathering = ""
 			for x in range(1,38):
